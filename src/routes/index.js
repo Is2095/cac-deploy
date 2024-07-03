@@ -26,4 +26,8 @@ router.post('/usuario', BuscarUsuarioPorEmailBD)
 
 router.put('/', (req, res) => {})
 
+router.get('/prueba', (req, res) => {
+    res.send('prueba exita')
+})
+
 export default router;

@@ -18,7 +18,7 @@ const __dirname = path.dirname(__filename);
 
 // app.use(cors({ origin: 'http://127.0.0.1:5500' }));
 app.use(cors({
-    origin: 'https://biblioteca-backend-y7iu.vercel.app',
+    origin: 'https://cac-deploy-silk.vercel.app',
     optionsSuccessStatus: 200 
  }));
 
