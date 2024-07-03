@@ -4,7 +4,7 @@ function toggleFavorite(button, dato) {
     const corazonRojo = button.classList.toggle('active');
    
     if (!corazonRojo) {
-        fetch(`https://cac-deploy-silk.vercel.app/api`, { 
+        fetch(`https://cac-deploy-silk.vercel.app`, { 
             method: 'DELETE' ,
             headers: {
                 'Content-Type': 'application/json' 
